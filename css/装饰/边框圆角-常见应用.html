@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 生成正圆或椭圆 */
+        .circle{
+            width: 200px;
+            height: 400px;
+            /* 盒子为正方形，则可以生成正圆；若为长方形，则可以生成椭圆 */
+            background-color: pink;
+            border-radius: 100px;
+            border-radius: 50%;
+
+        }
+        /* 生成胶囊按钮 */
+        /* 1.盒子要求是长方形 
+           2.border-radius：盒子高度的一半*/
+        .capsule{
+            width: 400px;
+            height: 200px;
+            background-color: pink;
+            border-radius: 100px;
+            vertical-align: middle;
+            text-align: center;
+            line-height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="circle"></div>
+    <div class="capsule">胶囊按钮</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            color: orange;
+        }
+        /* id选择器大于类选择器 */
+        .box{
+            color: blue;
+        }
+        /* 类选择器大于标签选择器 */
+        body{
+            color: red;
+            /* 继承性 */
+        }
+        div{
+            color: green !important;
+            /* 加上！important之后变成最大 */
+        }
+        /* 标签选择器大于继承 */
+    </style>
+</head>
+<body>
+    <!-- 解决样式冲突问题 -->
+    <div class="box" id="box" style="color: blueviolet;">
+        <!-- 行内标签大于id选择器 -->
+        测试优先级
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 相对定位的偏移值表示下一次定位后和当前定位之间的差值（水平垂直移动距离） */
+        /* 1.占有原有的位置
+           2.不改变显示模式*/
+        div{
+            height: 300px;
+            width: 300px;
+            background-color: pink;
+            position: relative;
+            left: 100px;
+            top: 200px;
+            right:300px
+            /* 左上原则，如果left和right同时有，以left为准，如果top和bottom同时有，以top为准 */
+            /* Emment语言：por*/
+            /* 不脱标（脱离标准流控制） */
+        }
+    </style>
+</head>
+<body>
+    <p>测试定位测试定位</p>
+    <p>测试定位测试定位</p>
+    <p>测试定位测试定位</p>
+    <p>测试定位测试定位</p>
+    <div>盒子</div>
+    <p>测试定位测试定位</p>
+    <p>测试定位测试定位</p>
+    <p>测试定位测试定位</p>
+    <p>测试定位测试定位</p>
+
+</body>
+</html>

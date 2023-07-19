@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div>a{
+            color: red;
+        }
+        /* 子代选择器： 父选择器>子选择器{css属性} */
+        /* 子代选择器只选择儿子，不包括孙子、重孙子 */
+        /* 后代选择器选择所有后代，包括孙子、重孙子*/
+    </style>
+</head>
+<body>
+    <div>
+        父亲
+        <a href="#">大儿子</a>
+        <p>二儿子
+            <a href="#">孙子</a>
+        </p>
+    </div>
+</body>
+</html>

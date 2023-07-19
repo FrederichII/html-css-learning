@@ -1,0 +1,31 @@
+/* 选择器{} */
+
+/* 标签选择器：标签名{css属性键值对} */ 
+/* 会选中所有的该种标签进行渲染 */
+ p{
+    color: red;
+}
+
+/* 类选择器：.类名{css属性键值对} */
+/* 在标签中加属性 class："类名" */
+.green{
+    color: green;
+}
+.size{
+    font-size: 20px;
+}
+
+/* id选择器，多用于配合jS查找标签，较少用于css */
+/* #id属性值{css属性键值对} */
+#two{
+    color: blue;;
+}
+#three{
+    color: purple;
+}
+
+/* 通配符选择器:*{css键值对}，作用于所有标签，级别最高，实际应用并不多，
+主要用于清除默认样式（默认内外边距）margin，padding */
+*{
+    color:black;
+}
